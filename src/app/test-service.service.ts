@@ -15,7 +15,7 @@ export class TestServiceService {
     return this.serviceValue;
   }
 
-  setValue(val): void{
+  setValue(val: string): void{
     this.serviceValue = val;
   }
 }
