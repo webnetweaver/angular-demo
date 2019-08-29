@@ -21,6 +21,10 @@
     cursor: pointer;
 }
 
+.nav ul li.hilite {
+    color: yellow;
+}
+
 .home-icon-container{
     height:110px;
     width:15%;

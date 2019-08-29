@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector:'navigation',
   template:`<nav class="nav">    
     <ul>
-      <li>Introduction</li>
+      <li routerLink="/home" routerLinkActive="hilite">Introduction</li>
       <li>Two-Way Binding</li>
       <li>Form Validation</li>
-      <li>Restful API</li>
+      <li routerLink="/restAPI" routerLinkActive="hilite">Restful API</li>
       <li>Content Projection</li>
       <li>Templates and Containers</li>
       <li>Structural Directives</li>
