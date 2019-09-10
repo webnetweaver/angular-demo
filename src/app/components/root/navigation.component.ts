@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template:`<nav class="nav">    
     <ul>
       <li routerLink="/home" routerLinkActive="hilite">Introduction</li>
-      <li>Two-Way Binding</li>
+      <li routerLink="/two-way-binding" routerLinkActive="hilite">Two-Way Binding</li>
       <li>Form Validation</li>
       <li routerLink="/restAPI" routerLinkActive="hilite">Restful API</li>
       <li>Content Projection</li>

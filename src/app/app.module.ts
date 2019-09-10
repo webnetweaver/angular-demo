@@ -9,7 +9,9 @@ import {HomeIconComponent} from './components/root/homeicon.component';
 import { navigationCancelingError } from '@angular/router/src/shared';
 import {IntroductionComponent} from './components/root/introduction.component';
 import { RestExampleComponent} from './components/RestAPI/restful.component';
-import {NotFoundComponent} from './components/root/notfound.component'
+import {NotFoundComponent} from './components/root/notfound.component';
+import {TwoWayBindingExampleComponent, TwoWayBindingChildComponent, TwoWayBindingParentComponent} from './components/TwoWayBinding/Binding.component';
+import {TwoWayBindingComponent} from './components/TwoWayBinding/Binding.component';
 
 
 @NgModule({
@@ -20,6 +22,10 @@ import {NotFoundComponent} from './components/root/notfound.component'
   HomeIconComponent,
   IntroductionComponent,
   RestExampleComponent,
+  TwoWayBindingExampleComponent,
+  TwoWayBindingChildComponent,
+  TwoWayBindingParentComponent,
+  TwoWayBindingComponent,
   NotFoundComponent
   ],
   imports: [
